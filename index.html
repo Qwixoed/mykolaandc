@@ -517,48 +517,130 @@
 
   <div class="portfolio-grid" id="portfolioGrid">
 
-    <!-- Upload placeholders — clicking lets you pick a photo -->
-    <div class="portfolio-placeholder reveal" data-category="concrete" onclick="triggerUpload(this)">
-      <input type="file" accept="image/*" onchange="loadImage(event, this.parentElement)" style="display:none">
-      <div class="placeholder-icon">📸</div>
-      <div class="placeholder-text">Add Photo</div>
-      <div class="placeholder-sub">Concrete Work</div>
+  <!-- Concrete -->
+  <div class="portfolio-item reveal" data-category="concrete" onclick="openLightbox('images/concrete-1.jpg', 'Concrete Walkway', 'Concrete')">
+    <img src="images/concrete-1.jpg" alt="Concrete Walkway">
+    <div class="portfolio-overlay">
+      <h4>Concrete Walkway</h4>
+      <span>Concrete</span>
     </div>
+  </div>
 
-    <div class="portfolio-placeholder reveal" data-category="interlock" onclick="triggerUpload(this)">
-      <input type="file" accept="image/*" onchange="loadImage(event, this.parentElement)" style="display:none">
-      <div class="placeholder-icon">📸</div>
-      <div class="placeholder-text">Add Photo</div>
-      <div class="placeholder-sub">Interlock</div>
+  <div class="portfolio-item reveal" data-category="concrete" onclick="openLightbox('images/concrete-2.jpg', 'Front Porch & Steps', 'Concrete')">
+    <img src="images/concrete-2.jpg" alt="Front Porch & Steps">
+    <div class="portfolio-overlay">
+      <h4>Front Porch & Steps</h4>
+      <span>Concrete</span>
     </div>
+  </div>
 
-    <div class="portfolio-placeholder reveal" data-category="painting" onclick="triggerUpload(this)">
-      <input type="file" accept="image/*" onchange="loadImage(event, this.parentElement)" style="display:none">
-      <div class="placeholder-icon">📸</div>
-      <div class="placeholder-text">Add Photo</div>
-      <div class="placeholder-sub">Painting</div>
+  <div class="portfolio-item reveal" data-category="concrete" onclick="openLightbox('images/concrete-3.jpg', 'Concrete Patio Slab', 'Concrete')">
+    <img src="images/concrete-3.jpg" alt="Concrete Patio Slab">
+    <div class="portfolio-overlay">
+      <h4>Concrete Patio Slab</h4>
+      <span>Concrete</span>
     </div>
+  </div>
 
-    <div class="portfolio-placeholder reveal" data-category="improvements" onclick="triggerUpload(this)">
-      <input type="file" accept="image/*" onchange="loadImage(event, this.parentElement)" style="display:none">
-      <div class="placeholder-icon">📸</div>
-      <div class="placeholder-text">Add Photo</div>
-      <div class="placeholder-sub">Home Improvements</div>
+  <div class="portfolio-item reveal" data-category="concrete" onclick="openLightbox('images/concrete-4.jpg', 'Stepping Stone Path', 'Concrete')">
+    <img src="images/concrete-4.jpg" alt="Stepping Stone Path">
+    <div class="portfolio-overlay">
+      <h4>Stepping Stone Path</h4>
+      <span>Concrete</span>
     </div>
+  </div>
 
-    <div class="portfolio-placeholder reveal" data-category="concrete" onclick="triggerUpload(this)">
-      <input type="file" accept="image/*" onchange="loadImage(event, this.parentElement)" style="display:none">
-      <div class="placeholder-icon">📸</div>
-      <div class="placeholder-text">Add Photo</div>
-      <div class="placeholder-sub">Concrete Stamp</div>
+  <div class="portfolio-item reveal" data-category="concrete" onclick="openLightbox('images/concrete-5.jpg', 'Side Concrete Path', 'Concrete')">
+    <img src="images/concrete-5.jpg" alt="Side Concrete Path">
+    <div class="portfolio-overlay">
+      <h4>Side Concrete Path</h4>
+      <span>Concrete</span>
     </div>
+  </div>
 
-    <div class="portfolio-placeholder reveal" data-category="interlock" onclick="triggerUpload(this)">
-      <input type="file" accept="image/*" onchange="loadImage(event, this.parentElement)" style="display:none">
-      <div class="placeholder-icon">📸</div>
-      <div class="placeholder-text">Add Photo</div>
-      <div class="placeholder-sub">Interlock Driveway</div>
+  <!-- Interlock -->
+  <div class="portfolio-item reveal" data-category="interlock" onclick="openLightbox('images/interlock-1.jpg', 'Interlock Patio', 'Interlock')">
+    <img src="images/interlock-1.jpg" alt="Interlock Patio">
+    <div class="portfolio-overlay">
+      <h4>Interlock Patio</h4>
+      <span>Interlock</span>
     </div>
+  </div>
+
+  <div class="portfolio-item reveal" data-category="interlock" onclick="openLightbox('images/interlock-2.jpg', 'Interlock Walkway', 'Interlock')">
+    <img src="images/interlock-2.jpg" alt="Interlock Walkway">
+    <div class="portfolio-overlay">
+      <h4>Interlock Walkway</h4>
+      <span>Interlock</span>
+    </div>
+  </div>
+
+  <!-- Improvements -->
+  <div class="portfolio-item reveal" data-category="improvements" onclick="openLightbox('images/improvements-1.jpg', 'Wood Stairs', 'Improvements')">
+    <img src="images/improvements-1.jpg" alt="Wood Stairs">
+    <div class="portfolio-overlay">
+      <h4>Wood Stairs</h4>
+      <span>Improvements</span>
+    </div>
+  </div>
+
+  <div class="portfolio-item reveal" data-category="improvements" onclick="openLightbox('images/improvements-2.jpg', 'Stained Deck & Stairs', 'Improvements')">
+    <img src="images/improvements-2.jpg" alt="Stained Deck & Stairs">
+    <div class="portfolio-overlay">
+      <h4>Stained Deck & Stairs</h4>
+      <span>Improvements</span>
+    </div>
+  </div>
+
+  <div class="portfolio-item reveal" data-category="improvements" onclick="openLightbox('images/improvements-3.jpg', 'Wooden Fence', 'Improvements')">
+    <img src="images/improvements-3.jpg" alt="Wooden Fence">
+    <div class="portfolio-overlay">
+      <h4>Wooden Fence</h4>
+      <span>Improvements</span>
+    </div>
+  </div>
+
+  <div class="portfolio-item reveal" data-category="improvements" onclick="openLightbox('images/improvements-4.jpg', 'Interior Renovation', 'Improvements')">
+    <img src="images/improvements-4.jpg" alt="Interior Renovation">
+    <div class="portfolio-overlay">
+      <h4>Interior Renovation</h4>
+      <span>Improvements</span>
+    </div>
+  </div>
+
+  <div class="portfolio-item reveal" data-category="improvements" onclick="openLightbox('images/improvements-5.jpg', 'Drywall Work', 'Improvements')">
+    <img src="images/improvements-5.jpg" alt="Drywall Work">
+    <div class="portfolio-overlay">
+      <h4>Drywall Work</h4>
+      <span>Improvements</span>
+    </div>
+  </div>
+
+  <div class="portfolio-item reveal" data-category="improvements" onclick="openLightbox('images/improvements-6.jpg', 'Wood Flooring', 'Improvements')">
+    <img src="images/improvements-6.jpg" alt="Wood Flooring">
+    <div class="portfolio-overlay">
+      <h4>Wood Flooring</h4>
+      <span>Improvements</span>
+    </div>
+  </div>
+
+  <div class="portfolio-item reveal" data-category="improvements" onclick="openLightbox('images/improvements-7.jpg', 'Tile Patio', 'Improvements')">
+    <img src="images/improvements-7.jpg" alt="Tile Patio">
+    <div class="portfolio-overlay">
+      <h4>Tile Patio</h4>
+      <span>Improvements</span>
+    </div>
+  </div>
+
+  <div class="portfolio-item reveal" data-category="improvements" onclick="openLightbox('images/improvements-8.jpg', 'Landscaping', 'Improvements')">
+    <img src="images/improvements-8.jpg" alt="Landscaping">
+    <div class="portfolio-overlay">
+      <h4>Landscaping</h4>
+      <span>Improvements</span>
+    </div>
+  </div>
+
+</div>
 
   </div>
 
